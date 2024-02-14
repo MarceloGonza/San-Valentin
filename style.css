@@ -53,14 +53,14 @@ h1{
     h1{
         padding: 50px;
         position: relative;
-        right: -20px;
+        right: -18px;
         font-size: 20px;
         text-align: center;
     }
     .logo {
         margin: auto;
         position: relative;
-        right: -20px;
+        right: -18px;
         height: 300px;
         padding: 1%;
         display: flex;
@@ -69,13 +69,13 @@ h1{
     }
     .botones {
         position: relative;
-        right: -18px;
+        right: -16px;
         padding: 10px;
     }
 
     .botones a {
         position: relative;
-        right: -17px;
+        right: -15px;
             font-family: 'Courier New', Courier, monospace;
             font-weight: 300;
             background-color: #f50505aa;
