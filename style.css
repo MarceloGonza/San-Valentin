@@ -23,6 +23,7 @@ h1{
 }
 
 .botones{
+    text-align: center;
     margin: 100px;
     padding: 2%;
     display: flex;
