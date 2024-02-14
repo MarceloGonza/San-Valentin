@@ -66,7 +66,7 @@ h1{
     }
     .botones {
        position: relative;
-        right: -10px;
+        right: 10px;
         padding: 10px;
     }
 
