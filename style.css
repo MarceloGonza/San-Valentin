@@ -1,5 +1,5 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    display: block;
 }
 
 
@@ -8,6 +8,7 @@ body{
 }
 
 h1{
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 2%;
     font-weight: 450;
@@ -29,6 +30,7 @@ h1{
     align-items: center;
 }
 .botones a{
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 300;
     background-color: #f50505aa;
     color: white;
@@ -46,4 +48,33 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .logo {
+        margin: auto;
+        height: 200px;
+        padding: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .botones {
+        flex-direction: column; /* Cambia la dirección de los botones a columna */
+        align-items: center;
+    }
+
+    .botones a {
+        width: 100%; /* Ocupa todo el ancho disponible */
+    }
+
+    .fin {
+        padding-top: 50px;
+         font-size: 20px;
+        text-align: center;
+        height: 10px;
+    }
 }
