@@ -52,15 +52,12 @@ h1{
 @media only screen and (max-width: 600px) {
     h1{
         padding: 50px;
-        position: relative;
-        right: -15px;
+        
         font-size: 20px;
         text-align: center;
     }
     .logo {
         margin: auto;
-        position: relative;
-        right: -14px;
         height: 300px;
         padding: 1%;
         display: flex;
@@ -68,8 +65,7 @@ h1{
         align-items: center;
     }
     .botones {
-        position: relative;
-        right: -16px;
+       
         padding: 10px;
     }
 
