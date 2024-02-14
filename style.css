@@ -88,13 +88,13 @@ h1{
             cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
             display: flex;
             justify-content: space-between;
+    }
+      .fin {
+            padding-top: 50px;
+             font-size: 20px;
+            text-align: center;
+            height: 10px;
         }
     }
 
-    .fin {
-        padding-top: 50px;
-         font-size: 20px;
-        text-align: center;
-        height: 10px;
-    }
-}
+
