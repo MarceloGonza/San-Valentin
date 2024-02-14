@@ -65,7 +65,8 @@ h1{
         align-items: center;
     }
     .botones {
-       
+       position: relative;
+        right: -10px;
         padding: 10px;
     }
 
