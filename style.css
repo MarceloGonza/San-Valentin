@@ -69,13 +69,13 @@ h1{
     }
     .botones {
         position: relative;
-        right: -20px;
+        right: -18px;
         padding: 10px;
     }
 
     .botones a {
         position: relative;
-        right: -18px;
+        right: -17px;
             font-family: 'Courier New', Courier, monospace;
             font-weight: 300;
             background-color: #f50505aa;
