@@ -1,0 +1,49 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+body{
+    background-image: url("./Images/fondo2.jpg");
+}
+
+h1{
+    text-align: center;
+    padding: 2%;
+    font-weight: 450;
+}
+
+.logo{
+    margin: auto;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones{
+    margin: 100px;
+    padding: 2%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.botones a{
+    font-weight: 300;
+    background-color: #f50505aa;
+    color: white;
+    border: 2px solid #000; /* Ancho del contorno y color */
+    padding: 10px 20px; /* Espaciado interno para el contenido del botón */
+    text-align: center; /* Centra el texto dentro del botón */
+    text-decoration: none; /* Elimina la decoración de subrayado por defecto */
+    display: inline-block; /* Hace que el botón se comporte como un bloque en línea */
+    font-size: 24px; /* Tamaño del texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.fin{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
