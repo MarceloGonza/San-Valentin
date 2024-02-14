@@ -51,24 +51,44 @@ h1{
 }
 @media only screen and (max-width: 600px) {
     h1{
+        padding: 50px;
+        position: relative;
+        right: -20px;
         font-size: 20px;
         text-align: center;
     }
     .logo {
         margin: auto;
-        height: 200px;
+        position: relative;
+        right: -20px;
+        height: 300px;
         padding: 1%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .botones {
-        flex-direction: column; /* Cambia la dirección de los botones a columna */
-        align-items: center;
+        position: relative;
+        right: -20px;
+        padding: 10px;
     }
 
     .botones a {
-        width: 100%; /* Ocupa todo el ancho disponible */
+        position: relative;
+        right: -18px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 300;
+            background-color: #f50505aa;
+            color: white;
+            border: 2px solid #000; /* Ancho del contorno y color */
+            padding: 10px 50px; /* Espaciado interno para el contenido del botón */
+            text-align: center; /* Centra el texto dentro del botón */
+            text-decoration: none; /* Elimina la decoración de subrayado por defecto */
+            font-size: 20px; /* Tamaño del texto del botón */
+            cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+            display: flex;
+            justify-content: space-between;
+        }
     }
 
     .fin {
